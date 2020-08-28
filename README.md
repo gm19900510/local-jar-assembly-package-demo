@@ -4,4 +4,16 @@
 
 ## 说明
 
-详情说明请参照：
+- 打包
+
+    ```bash
+    mvn package assembly:single
+    ```
+
+- 执行
+
+    ```bash
+    java -jar local-jar-assembly-package-demo-0.0.1-SNAPSHOT-release.jar
+    ```
+
+详情说明请参照： https://gaoming.blog.csdn.net/article/details/108282136 
